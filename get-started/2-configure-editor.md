@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Get Started: Setup Editor"
-permalink: /get-started/setup-editor/
+title: "Get Started: Configure Editor"
+permalink: /get-started/configure-editor/
 ---
 
 Flutter is a flexible toolkit, which supports writing Flutter apps using a
@@ -83,4 +83,4 @@ To install these:
 Now that you have the Flutter editor configured, let create a first project,
 run it, and experiencee 'hot reload'.
 
-[Next step: Create and run your first app](/get-started/create-and-run/)
+[Next step: Test Drive](/get-started/test-drive/)

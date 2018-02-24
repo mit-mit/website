@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Get Started: Create and Run Your First App"
-permalink: /get-started/create-and-run/
+title: "Get Started: Test Drive"
+permalink: /get-started/test-drive/
 ---
 
 This page describes how to create your first Flutter app, run it, and learn
@@ -171,4 +171,4 @@ You should see the updated string in the running app almost immediately.
 
 Let's learn some core Flutter concepts, by creating a small app.
 
-[Next step: Core Concepts Tutorial](/get-started/codelab/)
+[Next step: Write Your First Flutter App](/get-started/your-first-app/)

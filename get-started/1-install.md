@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Flutter installation & setup
+title: "Get Started: Install"
 permalink: /get-started/setup/
 ---
 
@@ -52,4 +52,4 @@ inline error checking, and visual debugging features.</td>
  </tr>
 </table>
 
-
+[Next step: Configure Editor](/get-started/configure-editor/)
