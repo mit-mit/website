@@ -12,7 +12,7 @@ developer Flutter apps.
 
 Should you desire a more intergrated experience, follow the steps below to
 configure a fully Flutter-enabled editor. If not, you can skip directly to
-[Next step: Create and run your first app](/get-started/create-and-run/).
+[Next step: Test Drive](/get-started/test-drive/).
 
 <ul class="tabs__top-bar">
     <li class="tab-link current" data-tab="tab-install-androidsstudio">Android Studio</li>

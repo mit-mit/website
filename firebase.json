@@ -79,8 +79,8 @@
         "type": 301
       },
       {
-        "source": "/setup-ide",
-        "destination": "/get-started/setup-editor/",
+        "source": "/ide-setup",
+        "destination": "/get-started/configure-editor/",
         "type": 301
       }
     ]
