@@ -1,8 +1,12 @@
 ---
 layout: page
-title: "Get Started: Learn More"
-permalink: /get-started/learn-more/
+title: "Get Started: Write Your First Flutter App"
+permalink: /get-started/your-first-app/
 ---
+
+**Coming soon:** Flutter core concepts codelab
+
+## Next step
 
 * Learn more about the Flutter framework
 

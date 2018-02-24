@@ -46,7 +46,7 @@ If you've already build the layout in
 skip to the next section.
 
 * Make sure you've [set up](/get-started/setup/) your environment.
-* [Create a basic Flutter app.](/get-started/create-and-run/)
+* [Create a basic Flutter app.](/get-started/test-drive/)
 * Replace the `lib/main.dart` file with
   [`main.dart`](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/lakes/main.dart)
   from GitHub.

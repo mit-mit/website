@@ -23,7 +23,7 @@ time may be better spent on code behavior rather than code style.
 ### Automatically formatting code in Android Studio, and IntelliJ
 
 Automatic formatting of code is supported in Android Studio, and IntelliJ if you
-have the `Dart` plugin (see [Editor setup](/get-started/setup-editor/)).
+have the `Dart` plugin (see [Editor setup](/get-started/configure-editor/)).
 
 To automatically format the code in the current source code window, right-click
 in the code window and select `Reformat with Dart style`. You can add a keyboard
@@ -32,7 +32,7 @@ shortcut to this in Keymap section of IntelliJ Preferences.
 ### Automatically formatting code in VS Code
 
 Automatic formatting of code is supported in Visual Studio Code if you
-have the `Dart Code` plugin (see [Editor setup](/get-started/setup-editor/)).
+have the `Dart Code` plugin (see [Editor setup](/get-started/configure-editor/)).
 
 To automatically format the code in the current source code window, right-click
 in the code window and select `Format Document`. You can add a keyboard
