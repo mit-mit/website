@@ -253,7 +253,8 @@ $ flutter create {projectname}
 In React Native, you would go to the project directory and use 
 `npm run ios/android` or `yarn run ios/android`.
 In [Flutter](https://flutter.io/get-started/), if you are using the terminal, then you use the `flutter run` command in the project root directory to run your app on a connected device or simulator. 
-If you are using an IDE like IntelliJ, Android Studio, or VS Code with the Flutter plugin installed then you can use the in-built tools to run the app. 
+If you are using an IDE like IntelliJ, Android Studio, or VS Code with the [Flutter plugin installed](/get-started/editor/)
+then you can use the in-built tools to run the app. 
 
 For more information, see the documentation on [getting started](https://flutter.io/get-started/).
 
@@ -1915,7 +1916,7 @@ child: new Dismissible(
 ||itemBuilder [required] |[[ Indexed Widget Builder](https://docs.flutter.io/flutter/widgets/IndexedWidgetBuilder.html)] helps in building the children on demand. This callback will be called only with indices greater than or equal to zero and less than itemCount.
 ||itemCount |[ int ] It improves the ability of the ListView to estimate the maximum scroll extent.
 |                                                                                           |                                                                                                            |                                                                                                                                        |
-| [Image](https://docs.flutter.io/flutter/widgets/Image-class.html)                         | [Image](https://facebook.github.io/react-native/docs/image.html)                                           | A widget that displays an image.                                                                                                       |
+| [Image](https://facebook.github.io/react-native/docs/image.html)                         | [Image](https://docs.flutter.io/flutter/widgets/Image-class.html)                                           | A widget that displays an image.                                                                                                       |
 |                                                                                           |  image [required]                                                                                          | The image to display.                                                                                                                  |
 |                                                                                           | Image. asset                                                                                                | Several constructors are provided for the various ways that an image can be specified.                                                 |
 |                                                                                           | width, height, color, alignment                                                                            | Style and Layout for the Image                                                                                                         |
@@ -1950,7 +1951,7 @@ child: new Dismissible(
 |                                                                                           | onTap                                                                                                      | callback when tap occurs                                                                                                               |
 |                                                                                           | onDoubleTap                                                                                                | callback when tap occurs 
 |||
-| [Text Input](https://docs.flutter.io/flutter/services/TextInput-class.html)                | [Text Input](https://facebook.github.io/react-native/docs/textinput.html)                                   | interface to the system's text input control                                                                                           |
+| [Text Input](https://facebook.github.io/react-native/docs/textinput.html)                | [Text Input](https://docs.flutter.io/flutter/services/TextInput-class.html)                                   | interface to the system's text input control                                                                                           |
 |                                                                                           | controller                                                                                                 | [ [Text Editing Controller](https://docs.flutter.io/flutter/widgets/TextEditingController-class.html) ] to access and modify text.
 |||
 | [Text](https://facebook.github.io/react-native/docs/text.html)                          | [Text](https://docs.flutter.io/flutter/widgets/Text-class.html)                                            | A run of text with a single style.                                                                                                                                                                           |

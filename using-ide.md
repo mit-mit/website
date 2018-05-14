@@ -5,6 +5,15 @@ title: Developing Flutter apps in an IDE
 permalink: /using-ide/
 ---
 
+<div id="tab-set-install">
+
+<ul class="tabs__top-bar">
+    <li class="tab-link current" >Android Studio / IntelliJ</li>
+    <li class="tab-link" data-tab-href="/using-ide-vscode/">VS Code</li>
+</ul>
+
+<div class="tabs__content current" markdown="1">
+
 The Flutter plugin provides a fully integrated development experience in the
 Android Studio or IntelliJ IDEs.
 
@@ -23,7 +32,7 @@ prompted in IntelliJ when an update is available.
 
 To check for updates manually:
 
-1. Open preferences (**IntelliJ IDEA>Check for Updates...** on macOS,
+1. Open preferences (**Android Studio>Check for Updates...** on macOS,
 **Help>Check for Updates...** on Linux).
 1. If `dart` or `flutter` are listed, update them.
 
@@ -31,9 +40,9 @@ To check for updates manually:
 
 ### Creating a new project
 
-To create a new Flutter IntelliJ project from the Flutter starter app template:
+To create a new Flutter project from the Flutter starter app template:
 
-1. In IntelliJ, click **Create New Project** from the 'Welcome' window or
+1. In the IDE, click **Create New Project** from the 'Welcome' window or
 **File>New>Project...** from the main IDE window.
 1. Select **Flutter** in the menu, and click **Next**.
 1. Enter your desired **Project name** and **Project location**.
@@ -41,10 +50,10 @@ To create a new Flutter IntelliJ project from the Flutter starter app template:
 
 ### Creating a new project from existing source code
 
-To create a new Flutter IntelliJ project containing existing Flutter source code
+To create a new Flutter project containing existing Flutter source code
 files:
 
-1. In IntelliJ, click **Create New Project** from the 'Welcome' window or
+1. In the IDE, click **Create New Project** from the 'Welcome' window or
 **File>New>Project...** from the main IDE window.
   - **Note**: Do *not* use the **New>Project from existing sources...** option for Flutter projects.
 1. Select **Flutter** in the menu, and click **Next**.
@@ -72,7 +81,7 @@ Running and Debugging is controlled from the main toolbar:
 
 ### Selecting a target
 
-When a Flutter project is open in IntelliJ, you should see a set of Flutter
+When a Flutter project is open in the IDE, you should see a set of Flutter
 specific buttons on the right-hand side of the toolbar.
 
 *Note*: If the Run & Debug buttons are disabled, and no targets are listed, Flutter
@@ -112,7 +121,7 @@ of your changes almost instantly with the 'hot reload' feature. See
 To debug a visual issue, start the app with 'Debug', and then open the Flutter
 inspector tool window using 'View > Tool Windows > Flutter Inspector'.
 
-![IntelliJ Flutter Inspector Window](/images/intellij/visual-debugging.png)
+![Flutter Inspector Window](/images/intellij/visual-debugging.png)
 
 This offers many debugging tools; for details on these please see
 [Debugging Flutter Apps](https://flutter.io/debugging/).
@@ -140,7 +149,7 @@ Also available in the additional actions menu:
 
 * 'Enable Slow Animations': Slow down animations to enable visual inspection.
 
-* 'Hide Slow Mode Banner': Hide the 'slow mode' banner even when running a
+* 'Hide Debug Banner': Hide the 'debug' banner even when running a
   debug build.
 
 
@@ -174,11 +183,11 @@ can assist in correcting it. They are indicated with a red lightbulb.
 #### Wrap with new widget assist
 This can be used when you have a widget that you want to wrap in a surrounding widget,
 for example if you want to wrap a widget in a `Row` or `Column`.
- 
+
 ####  Wrap widget list with new widget assist
 Similar to the assist above, but for wrapping an existing list of widgets rather than an
 individual widget.
- 
+
 #### Convert child to children assist
 Changes a child argument to a children argument, and wraps the argument value in a list.
 
@@ -201,17 +210,17 @@ The Flutter plugin includes the following templates:
 
 You can also define custom templates in **Settings > Editor > Live Templates**.
 
-### IntelliJ keyboard shortcuts
+### Keyboard shortcuts
 
 **Hot Reload**
 
-On Linux (IntelliJ keymaps _Default for XWin_) and Windows the keyboard shortcuts
+On Linux (keymap _Default for XWin_) and Windows the keyboard shortcuts
 are `ctrl-alt-;` and `ctrl-\`.
 
-On macOS (IntelliJ keymap _Mac OS X 10.5+ copy_) the keyboard shortcuts are `⌘-⌥-;`
+On macOS (keymap _Mac OS X 10.5+ copy_) the keyboard shortcuts are `⌘-⌥-;`
 and `⌘-\`.
 
-Keyboard mappings can be changed in IntelliJ Preferences/Settings: Select
+Keyboard mappings can be changed in the IDE Preferences/Settings: Select
 *Keymap*, then enter _flutter_ into the search box in the upper right corner.
 Right click the binding you want to change and _Add Keyboard Shortcut_.
 
@@ -255,8 +264,8 @@ Flutter (as reported by `flutter doctor`).
 
 Please checkout these 'cheat sheets':
 
-  * [Flutter IntelliJ cheat sheet, MacOS version](/downloads/Flutter-IntelliJ-cheat-sheet-MacOS.pdf)
-  * [Flutter IntelliJ cheat sheet, Windows & Linux version](/downloads/Flutter-IntelliJ-cheat-sheet-WindowsLinux.pdf)
+  * [Flutter IDE cheat sheet, MacOS version](/downloads/Flutter-IntelliJ-cheat-sheet-MacOS.pdf)
+  * [Flutter IDE cheat sheet, Windows & Linux version](/downloads/Flutter-IntelliJ-cheat-sheet-WindowsLinux.pdf)
 
 ## Troubleshooting
 
@@ -282,3 +291,7 @@ to filing new issues, please:
 
 When filing new issues, please include the output of [`flutter
 doctor`](https://flutter.io/bug-reports/#provide-some-flutter-diagnostics).
+
+</div>
+
+</div>
